@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/agbalumo</item>
+        <item>@font/bakbak_one</item>
+        <item>@font/carter_one</item>
+        <item>@font/cormorant_medium</item>
+        <item>@font/eb_garamond</item>
+        <item>@font/roboto_slab_medium</item>
+        <item>@font/spectral_medium_italic</item>
+    </array>
+</resources>
