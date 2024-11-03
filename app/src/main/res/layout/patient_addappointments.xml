@@ -1,0 +1,89 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#C8E9F5"
+android:orientation="vertical"
+tools:context=".patient_addAppointments">
+
+<TextView
+    android:id="@+id/appointmentHeader"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/_35sdp"
+    android:fontFamily="@font/carter_one"
+    android:text="Book an Appointment"
+    android:textColor="@color/black"
+    android:textSize="22sp" />
+
+<ImageView
+    android:id="@+id/imageView3"
+    android:layout_width="100dp"
+    android:layout_height="99dp"
+    android:layout_margin="10dp"
+    android:layout_gravity="center"
+    app:srcCompat="@drawable/appointments" />
+
+<CalendarView
+    android:id="@+id/calendarView"
+    android:layout_width="280dp"
+    android:layout_height="300dp"
+    android:layout_gravity="center"
+    android:layout_margin="16dp"
+    android:background="#FCFEFF"
+    android:fontFamily="@font/bakbak_one" />
+
+<LinearLayout
+    android:id="@+id/doctorSelectionLayout"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="24dp">
+
+    <TextView
+        android:id="@+id/doctorListHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bakbak_one"
+        android:text="Doctors"
+        android:layout_gravity="center_vertical"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginEnd="8dp"/>
+
+    <Spinner
+        android:id="@+id/doctorSpinner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="1"
+        android:background="#FCFEFF"
+        android:fontFamily="@font/bakbak_one" />
+</LinearLayout>
+
+<Button
+    android:id="@+id/confirmAppointmentBtn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:layout_marginTop="24dp"
+    android:text="Confirm Appointment"
+    android:textColor="@android:color/white" />
+
+<TextView
+    android:id="@+id/appointmentDetails"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:fontFamily="@font/bakbak_one"
+    android:text="Select a date and doctor to book your appointment."
+    android:textColor="@color/black"
+    android:textSize="14sp" />
+
+</LinearLayout>

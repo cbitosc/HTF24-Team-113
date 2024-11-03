@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1013035868429",
+    "project_id": "patient-monitor-54324",
+    "storage_bucket": "patient-monitor-54324.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013035868429:android:f5a563be0d2424123bd044",
+        "android_client_info": {
+          "package_name": "com.hacktoberfest.patientmonitor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-_1a7CK3gQmk1fw8O1YR-7QJTbpfNg3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

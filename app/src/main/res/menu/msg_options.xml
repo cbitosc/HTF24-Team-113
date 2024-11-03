@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/d_me"
+        android:icon="@drawable/ic_delete"
+        android:title="Clear my view"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/d_all"
+        android:icon="@drawable/ic_delete"
+        android:title="Clear for everyone"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/copy"
+        android:icon="@drawable/ic_copy"
+        android:title="Copy"
+        app:showAsAction="ifRoom"/>
+</menu>
+

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8E9F5"
+    tools:context=".patient_home">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/patient_image2" />
+
+    <TextView
+        android:id="@+id/doctorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/_174sdp"
+        android:fontFamily="@font/carter_one"
+        android:text="Welcome user"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/_204sdp"
+        android:fontFamily="@font/bakbak_one"
+        android:gravity="center"
+        android:text="How we can help you today?"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/myInformationBtn"
+        android:layout_width="136dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="@dimen/_27sdp"
+        android:radius="1dp"
+        android:layout_marginTop="@dimen/_244sdp"
+        android:background="@drawable/button_home"
+        android:gravity="bottom|center"
+        android:paddingBottom="3.5dp"
+        android:text="Add Symptoms"
+        android:fontFamily="@font/bakbak_one"
+        android:textAllCaps="false"
+        android:textColor="#C8E9F5"
+        android:textSize="@dimen/_10sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/medicationsBtn"
+        android:layout_width="136dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="@dimen/_244sdp"
+        android:layout_marginEnd="@dimen/_27sdp"
+        android:background="@drawable/button_home"
+        android:fontFamily="@font/bakbak_one"
+        android:gravity="bottom|center"
+        android:paddingBottom="5.5dp"
+        android:text="Medication Reminder"
+        android:textColor="#C8E9F5"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/appointmentsBtn"
+        android:layout_width="136dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="@dimen/_27sdp"
+        android:background="@drawable/button_home"
+        android:layout_marginTop="@dimen/_344sdp"
+        android:fontFamily="@font/bakbak_one"
+        android:gravity="bottom|center"
+        android:paddingBottom="5dp"
+        android:text="Appointments"
+        android:textAllCaps="false"
+        android:textColor="#C8E9F5"
+        android:textSize="13.5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addAppointmentsBtn"
+        android:layout_width="136dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="@dimen/_344sdp"
+        android:layout_marginEnd="@dimen/_27sdp"
+        android:background="@drawable/button_home"
+        android:fontFamily="@font/bakbak_one"
+        android:gravity="bottom|center"
+        android:paddingBottom="0dp"
+        android:text="Add Appointments"
+        android:textAllCaps="false"
+        android:textColor="#C8E9F5"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/connectDoctorBtn"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/_444sdp"
+        android:background="@drawable/button_home"
+        android:fontFamily="@font/bakbak_one"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:text="Connect with Doctors"
+        android:textColor="#C8E9F5"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addMedicinesBtn"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/_499sdp"
+        android:background="@drawable/button_home"
+        android:fontFamily="@font/bakbak_one"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:text="Show Medicines"
+        android:textColor="#C8E9F5"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/MyInfo"
+        android:layout_width="60dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="@dimen/_58sdp"
+        android:layout_marginTop="@dimen/_256sdp"
+        android:elevation="19dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/myinfo" />
+
+    <ImageView
+        android:id="@+id/medication"
+        android:layout_width="60dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="@dimen/_255sdp"
+        android:layout_marginEnd="@dimen/_58sdp"
+        android:elevation="19dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/medication" />
+
+    <ImageView
+        android:id="@+id/appointments"
+        android:layout_width="60dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="@dimen/_58sdp"
+        android:layout_marginTop="@dimen/_356sdp"
+        android:elevation="19dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/appointments" />
+
+    <ImageView
+        android:id="@+id/connectDoctor"
+        android:layout_width="60dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="@dimen/_356sdp"
+        android:layout_marginEnd="@dimen/_58sdp"
+        android:elevation="19dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/medicalhistory" />
+
+    <ImageView
+        android:id="@+id/addAppointments"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_450sdp"
+        android:elevation="19dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/addappointments" />
+
+    <ImageView
+        android:id="@+id/addMedicines"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_504sdp"
+        android:elevation="19dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/addmedicines" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        app:icon="@drawable/logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.03" />
+</androidx.constraintlayout.widget.ConstraintLayout>
